@@ -10,11 +10,11 @@ import pickle
 import statistics
 import std_msgs.msg
 
-#scaler=joblib.load("/home/xchen/catkin_ws/src/LS02A/data/scal2.model")
-clf=joblib.load("/home/xchen/catkin_ws/src/LS02A/data/dataFile2.model")
-#with open('/home/xchen/catkin_ws/src/LS02A/data/scal1.txt','r') as f1:
+#scaler=joblib.load("/home/xchen/catkin_ws/src/LS02A/model/scal2.model")
+clf=joblib.load("/home/xchen/catkin_ws/src/LS02A/model/dataFile2.model")
+#with open('/home/xchen/catkin_ws/src/LS02A/model/scal1.txt','r') as f1:
 #    scaler2=pickle.load(f1)
-#with open('/home/xchen/catkin_ws/src/LS02A/data/dataFile1.txt','r') as f2:
+#with open('/home/xchen/catkin_ws/src/LS02A/model/dataFile1.txt','r') as f2:
 #    clf2=pickle.load(f2) 
 
 class Pred:
