@@ -1,0 +1,27 @@
+scan_filter_chain:
+- name: intensity
+  type: LaserScanIntensityFilter
+  params: 
+     lower_threshold: 199
+     upper_threshold: 2110
+     disp_histogram: 0
+#- name: angular
+#  type: LaserScanAngularBoundsFilter
+#  params:
+#    lower_angle: 0
+#    upper_angle: 0
+# type: laser_filters/LaserArrayFilter
+#   name: laser_median_filter
+#   params: 
+#     range_filter_chain:
+#       - name: median_5
+#         type: filters/MultiChannelMedianFilterFloat 
+#         params:
+#           number_of_observations: 5
+#           unused: 10
+#     intensity_filter_chain:
+#       - name: median_5
+#         type: filters/MultiChannelMedianFilterFloat 
+#         params:
+#           number_of_observations: 5
+#           unused: 10
