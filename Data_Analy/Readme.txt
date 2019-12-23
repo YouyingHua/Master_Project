@@ -1,1 +1,3 @@
 Through datasave node to record the data in different env parameter (OD values). Using MatLab cftool to get range - intensity; range - point count relation in different OD. And get the optimal detection range.
+NNM.py and svm.py are maching learning training algorithm using scikit-learn library. The system could estimate the environments by LidAR raw data by these two algorithms.
+opt_analy: data fitting algorithm on python. The algorithm derive the fitting model of relationship by laser point number and detection range. The data is based on the experimental data.
